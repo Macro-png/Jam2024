@@ -1,11 +1,11 @@
 {
-    "N_de_Iteracion": 1,
-    "patio_scarface": 0,
-    "fish_lavanderia":0,
-    "drHousearrest_enfermeria":0,
-    "nurseHappy_enfermeria":0,
-    "uniforme":0,
-    "llaves":0,
-    "riot":0,
-    "escape_thimothy":0
+    "N_de_Iteracion": 8,
+    "patio_scarface": 3,
+    "fish_lavanderia": 2,
+    "drHousearrest_enfermeria": 0,
+    "nurseHappy_enfermeria": 0,
+    "uniforme": 1,
+    "llaves": 1,
+    "riot": 1,
+    "escape_thimothy": 0
 }

@@ -1,0 +1,1 @@
+﻿{"inkVersion":21,"root":[["^...","\n","^Preferiria dormir en el piso, pero bueno...","\n","ev","str","^Dormir","/str","/ev",{"*":"0.c-0","flg":4},{"c-0":["\n","ev",{"x()":"ChangeSceneCelda"},"pop","/ev","\n","end",{"->":"0.g-0"},{"#f":5}],"g-0":["done",{"#f":5}]}],"done",{"#f":1}],"listDefs":{}}

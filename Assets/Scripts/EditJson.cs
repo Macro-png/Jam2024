@@ -10,7 +10,7 @@ public abstract class EditJson : MonoBehaviour
 
 
     public static void deleteSave(){
-        string jsonOriginal = File.ReadAllText(Application.streamingAssetsPath + "/data.json");
+        string jsonOriginal = File.ReadAllText(Application.streamingAssetsPath + "/datos.json");
         Datos datos = JsonUtility.FromJson<Datos>(jsonOriginal);
         SetDatos(datos);
     }

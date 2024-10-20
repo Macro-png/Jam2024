@@ -1,12 +1,13 @@
-﻿EXTERNAL ChangeSceneComedor()
+﻿EXTERNAL ChangeSceneComedor0()
 ->main
 === main ===
-BEN LUGASTAIN
-ES TU ULTIMO DÍA ACA
-ANDA A DESAYUNAR 
+...
+Jake Peralte: BEN LUGASTAIN
+Jake Peralte: ES TU ULTIMO DÍA ACA
+Jake Peralte: ANDA A DESAYUNAR 
     *[Ir a DESAYUNAR] -> next_scene 
 == next_scene ==
-APURATE
-~ ChangeSceneComedor()
+Jake Peralte: APURATE
+~ ChangeSceneComedor0()
 
 -> END

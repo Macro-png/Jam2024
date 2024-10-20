@@ -68,10 +68,24 @@ public class DialogueManager : MonoBehaviour
         
         
         currentStory.BindExternalFunction("ChangeSceneComedor", () => SceneManager.LoadScene(2));
+        currentStory.BindExternalFunction("ChangeSceneComedor0", () => SceneManager.LoadScene(6));
         currentStory.BindExternalFunction("ChangeSceneEnfermeria", ()=>SceneManager.LoadScene(3));
         currentStory.BindExternalFunction("ChangeScenePatio", ()=>{Debug.Log("LLego Bien a ChangeScenePatio()");;SceneManager.LoadScene(4);});
+        currentStory.BindExternalFunction("ChangeScenePatio0", ()=> SceneManager.LoadScene(7));
         currentStory.BindExternalFunction("ChangeSceneLavanderia", ()=>SceneManager.LoadScene(5));
+        currentStory.BindExternalFunction("ChangeSceneLavanderia0", ()=>SceneManager.LoadScene(8));
+        currentStory.BindExternalFunction("ChangeSceneCeldaNoche", ()=>{
+            Datos datos = EditJson.GetDatos();
+            datos.N_de_Iteracion++;
+            datos.riot = 0;
+            EditJson.SetDatos(datos);
+            SceneManager.LoadScene(9);
+            });     
+        currentStory.BindExternalFunction("ChangeSceneFinal", ()=>{
+            SceneManager.LoadScene(11);
+        });        
         currentStory.BindExternalFunction("ChangeSceneCelda", ()=>{
+   
             Datos datos = EditJson.GetDatos();
             datos.N_de_Iteracion++;
             EditJson.SetDatos(datos);
@@ -140,7 +154,7 @@ public class DialogueManager : MonoBehaviour
         dialogueIsPlaying = false; 
         dialoguePanel.SetActive(false);
         dialogueText.text = "";
-
+        iteraciones--;
 
     }
 
@@ -210,13 +224,12 @@ public class DialogueManager : MonoBehaviour
         EventSystem.current.SetSelectedGameObject(null);
         yield return new WaitForEndOfFrame();
         EventSystem.current.SetSelectedGameObject(choices[0].gameObject);
-        Debug.Log("OK");
+
     }
 
     public void makeChoice(int choiceIndex){
         
-        if (canContinueToNextLine) 
-        {
+        if (canContinueToNextLine) {
             currentStory.ChooseChoiceIndex(choiceIndex);
             // NOTE: The below two lines were added to fix a bug after the Youtube video was made
             InputManager.GetInstance().RegisterSubmitPressed(); // this is specific to my InputManager script

@@ -29,17 +29,20 @@ public class MovimientoHorizontal : MonoBehaviour
         if(canWalk){
             if (Input.GetKey(KeyCode.LeftArrow))
             {
+                Debug.Log("Camina");
                 animator.SetBool("Walking",true);
                 spriteRenderer.flipX = true;
                 movimiento = new Vector2(-1 * velocidad, rb.velocity.y);
             }
             else if(Input.GetKey(KeyCode.RightArrow)){
+                Debug.Log("Camina");
                 animator.SetBool("Walking",true);
                 spriteRenderer.flipX = false;
                 movimiento = new Vector2(1 * velocidad, rb.velocity.y);
             }
             else{
                 movimiento = new Vector2(0, rb.velocity.y);
+                Debug.Log("No Camina");
                 animator.SetBool("Walking",false);
             }
         }

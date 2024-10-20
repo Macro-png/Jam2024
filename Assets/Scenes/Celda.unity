@@ -642,7 +642,7 @@ PrefabInstance:
     - target: {fileID: 5695288356310631217, guid: 565afa00922cdac4893084f0e014844c, type: 3}
       propertyPath: inkJSON
       value: 
-      objectReference: {fileID: 4900000, guid: 2ee1e7e7a1806d447a4df2fb16f46157, type: 3}
+      objectReference: {fileID: 4900000, guid: 6b65e20fe1fc5f44ca249a22b4055ae7, type: 3}
     - target: {fileID: 6512339911200632168, guid: 565afa00922cdac4893084f0e014844c, type: 3}
       propertyPath: m_FlipX
       value: 1

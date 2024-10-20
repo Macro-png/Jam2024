@@ -19,7 +19,7 @@ public class EscenaCelda : MonoBehaviour
 /// Awake is called when the script instance is being loaded.
 /// </summary>
     void Start(){
-        if(EditJson.GetDatos().N_de_Iteracion == 0){
+        if(EditJson.GetDatos().N_de_Iteracion <= 0){
             Debug.Log("Primera Iteracion");
             calendario.GetComponent<DialogueTrigger>().inkJSON = inkJsonCalendario;
             inodoro.GetComponent<DialogueTrigger>().canInteract = false;

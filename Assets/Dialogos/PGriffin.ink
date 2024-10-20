@@ -1,4 +1,5 @@
 ﻿->main
 === main ===
-    Nyehehehehehe
+    ...
+    Mr. Griffon: Nyehehehehehe
     ->END

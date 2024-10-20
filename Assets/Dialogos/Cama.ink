@@ -1,0 +1,6 @@
+﻿EXTERNAL ChangeSceneCelda()
+...
+Preferiria dormir en el piso, pero bueno...
+    +[Dormir]
+        ~ChangeSceneCelda()
+        ->END

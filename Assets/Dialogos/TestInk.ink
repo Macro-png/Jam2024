@@ -1,2 +1,2 @@
-﻿Aun no estoy en funcionamiento
-Vuelve mas tarde
+﻿Si estas leyendo esto se rompio TODO
+No nos juzgues

@@ -1,8 +1,9 @@
 ﻿EXTERNAL ChangeScenePatio()
 -> main
 == main ==
-TODO EL MUNDO AL PATIO
-LA COMIDA AH TERMINADO
-TODO EL MUNDO AL PATIO
+...
+Jake Peralte: TODOS AL PATIO
+Jake Peralte: LA COMIDA HA TERMINADO
+
 ~ ChangeScenePatio()
 ->END

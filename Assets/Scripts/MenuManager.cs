@@ -10,7 +10,7 @@ public class MenuManager : MonoBehaviour
     {
         EditJson.deleteSave();
         // Carga la escena del juego (Asegúrate de añadir la escena en Build Settings)
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(10);
     }
 
     public void Opciones()

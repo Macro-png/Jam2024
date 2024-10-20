@@ -1,1 +1,1 @@
-﻿{"inkVersion":21,"root":[["^¡Feliz dia de la Beluga!","\n",["done",{"#f":5,"#n":"g-0"}],null],"done",{"#f":1}],"listDefs":{}}
+﻿{"inkVersion":21,"root":[[{"->":"main"},["done",{"#f":5,"#n":"g-0"}],null],"done",{"main":["^...","\n","^D.B. Silver: ¡Feliz dia de la Beluga!","\n","^...","\n","^Jake Peralte: SE VAN LAS LUCES","\n","^Jake Peralte: A SUS CELDAS","\n","ev",{"x()":"ChangeSceneCeldaNoche"},"pop","/ev","\n","end",{"#f":1}],"#f":1}],"listDefs":{}}

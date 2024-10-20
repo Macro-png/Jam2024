@@ -23,5 +23,23 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/lavanderia.unity
     guid: 14543da2568c016409c862a8dfd3dafb
+  - enabled: 1
+    path: Assets/Scenes/Comedor0.unity
+    guid: c68fd065c1e39a24ebda94fb81575094
+  - enabled: 1
+    path: Assets/Scenes/patio0.unity
+    guid: 1b329f70ad2cb9a4886058c5670a9654
+  - enabled: 1
+    path: Assets/Scenes/lavanderia0.unity
+    guid: f0b5fc7e70a55ae4a89664ab7ea29487
+  - enabled: 1
+    path: Assets/Scenes/CeldaNoche.unity
+    guid: 308a9c9b398f1d448b806546325b4545
+  - enabled: 1
+    path: Assets/Scenes/Celda0.unity
+    guid: cfc0f3dac7a69e746ae5fd1c3d5ff98b
+  - enabled: 1
+    path: Assets/Scenes/Final.unity
+    guid: f04b07d95b587874dbee4645c93feb94
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 78981e8881d8d3146ab1dc3b30d13050, type: 2}

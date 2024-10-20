@@ -1,9 +1,10 @@
 ﻿-> main
 
 === main ===
-¿Ya te está afectando la celda de Timothy?
-dicen que se volvió loco intentando escapar un dia antes de salir jajaja…
-Nunca lo volvieron a ver.
+...
+Disco Dan: ¿Ya te está afectando la celda de Timothy?
+Disco Dan: dicen que se volvió loco intentando escapar un dia antes de salir jajaja…
+Disco Dan: Nunca lo volvieron a ver.
     +[...]
         ->END
 
@@ -12,6 +13,6 @@ Nunca lo volvieron a ver.
 
 === chosen ===
 
-Lo que vos digas...
+Disco Dan: Lo que vos digas...
 
 -> END
