@@ -60,11 +60,12 @@ public class DialogueManager : MonoBehaviour
 
         currentStory = new Story(inkJSON.text);
         dialogueIsPlaying = true;
+        dialoguePanel.SetActive(true);
 
         player.GetComponent<MovimientoHorizontal>().enabled = false;
         player.GetComponent<Rigidbody2D>().velocity = Vector3.zero;
 
-        dialoguePanel.SetActive(true);
+        
         
         currentStory.BindExternalFunction("ChangeSceneComedor", () => SceneManager.LoadScene(2));
         currentStory.BindExternalFunction("ChangeSceneEnfermeria", ()=>SceneManager.LoadScene(3));
@@ -125,6 +126,7 @@ public class DialogueManager : MonoBehaviour
             EditJson.SetDatos(datos);
 
         });
+
         ContinueStory();
 
     }
@@ -138,7 +140,8 @@ public class DialogueManager : MonoBehaviour
         dialogueIsPlaying = false; 
         dialoguePanel.SetActive(false);
         dialogueText.text = "";
-        iteraciones--;
+
+
     }
 
     // Update is called once per frame
@@ -147,7 +150,7 @@ public class DialogueManager : MonoBehaviour
         if(!dialogueIsPlaying){
             return;
         }
-        if(Input.GetKeyDown(KeyCode.Z) && canContinueToNextLine && currentStory.currentChoices.Count == 0 ){
+        if(Input.GetKeyDown(KeyCode.Z) && canContinueToNextLine ){
             Debug.Log("Presionaste Z de forma valida para pasar de dialogo");
             ContinueStory();
         }

@@ -2071,6 +2071,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: EventSystem
       objectReference: {fileID: 0}
+    - target: {fileID: 6634492165207618211, guid: 83a9acb0230f29546ab8d739983c555f, type: 3}
+      propertyPath: m_MoveAction
+      value: 
+      objectReference: {fileID: 7023726599725230892, guid: d0cd4c67a7c09e545b940f83048a5bcf, type: 3}
+    - target: {fileID: 6634492165207618211, guid: 83a9acb0230f29546ab8d739983c555f, type: 3}
+      propertyPath: m_ActionsAsset
+      value: 
+      objectReference: {fileID: -944628639613478452, guid: d0cd4c67a7c09e545b940f83048a5bcf, type: 3}
+    - target: {fileID: 6634492165207618211, guid: 83a9acb0230f29546ab8d739983c555f, type: 3}
+      propertyPath: m_SubmitAction
+      value: 
+      objectReference: {fileID: 9154684136299698876, guid: d0cd4c67a7c09e545b940f83048a5bcf, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
